@@ -52,8 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     //------------------------ managerUser fera la conversion aux mots françias et anglais
     
     func managerUser() {
-        // UserDefaults.standard.removeObject(forKey: "french")
-        // UserDefaults.standard.removeObject(forKey: "english")
+        
         if UserDefaults.standard.object(forKey: "french") != nil {
             arrFrench = UserDefaults.standard.object(forKey: "french") as! [String]
             arrEnglish = UserDefaults.standard.object(forKey: "english") as! [String]

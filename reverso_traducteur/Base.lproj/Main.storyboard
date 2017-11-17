@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -92,7 +91,6 @@
                                 <rect key="frame" x="83" y="126" width="208" height="23"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="208" id="6SQ-i7-RdV"/>
                                     <constraint firstAttribute="height" constant="23" id="gu7-Gu-9zY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
@@ -106,7 +104,7 @@
                             <constraint firstItem="ee4-w1-Rab" firstAttribute="top" secondItem="C7C-o2-1iz" secondAttribute="bottom" constant="12" id="2dQ-fS-otH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GCf-cF-Rag" secondAttribute="trailing" constant="14" id="7LV-MJ-Hif"/>
                             <constraint firstItem="GCf-cF-Rag" firstAttribute="top" secondItem="jvT-h5-vEw" secondAttribute="bottom" constant="3" id="8AA-9p-cT2"/>
-                            <constraint firstItem="jvT-h5-vEw" firstAttribute="leading" secondItem="ee4-w1-Rab" secondAttribute="trailing" constant="114" id="8qN-d6-ku0"/>
+                            <constraint firstItem="jvT-h5-vEw" firstAttribute="leading" relation="lessThanOrEqual" secondItem="ee4-w1-Rab" secondAttribute="trailing" constant="114" id="8qN-d6-ku0"/>
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vh7-tC-1jT" secondAttribute="trailingMargin" id="BNt-Sa-kiZ"/>
                             <constraint firstItem="jvT-h5-vEw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="DPN-Q2-J5M"/>
                             <constraint firstItem="ee4-w1-Rab" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Dpm-Qx-da9"/>
